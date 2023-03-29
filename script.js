@@ -8,6 +8,6 @@ clickerButton.addEventListener("click", function() {
 let clickCountElement = document.getElementById("click-count");
 
 clickerButton.addEventListener("click", function() {
-  clicks += 1;
-  clickCountElement.innerText = clicks;
-});
+    clicks += 1;
+    clickCountElement.innerText = clicks;
+  });
